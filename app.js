@@ -22,6 +22,7 @@ function changeLanguage() {
     location.reload();
   }
   select.value = hash;
+  document.querySelector('title').innerHTML = langArr['unit'][hash]
 }
 
 changeLanguage();
